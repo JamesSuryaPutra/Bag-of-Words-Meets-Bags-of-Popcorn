@@ -21,3 +21,36 @@ Andrew L. Maas, Raymond E. Daly, Peter T. Pham, Dan Huang, Andrew Y. Ng, and Chr
 
 # Evaluation
 Submissions are judged on area under the ROC curve.
+
+# What is Deep Learning?
+The term "deep learning" was coined in 2006, and refers to machine learning algorithms that have multiple non-linear layers and can learn feature hierarchies.
+
+Most modern machine learning relies on feature engineering or some level of domain knowledge to obtain good results. In deep learning systems, this is not the case; instead, algorithms can automatically learn feature hierarchies, which represent objects in increasing levels of abstraction. Although the basic ingredients of many deep learning algorithms have been around for many years, they are currently increasing in popularity for many reasons, including advances in compute power, the falling cost of computing hardware, and advances in machine learning research.
+
+Deep learning algorithms can be categorized by their architecture (feed-forward, feed-back, or bi-directional) and training protocols (purely supervised, hybrid, or unsupervised).
+
+Some good background materials include:
+- "Deep Learning for Signal and Information Processing", by Li Deng and Dong Yu (out of Microsoft)
+- "Deep Learning Tutorial" (2013 presentation by Yann LeCun and Marc'Aurelio Ranzato)
+
+# Where does Word2Vec fit in?
+Word2Vec works in a way that is similar to deep approaches such as recurrent neural nets or deep neural nets, but it implements certain algorithms, such as hierarchical softmax, that make it computationally more efficient.
+
+In this tutorial, we use a hybrid approach to training; consisting of an unsupervised piece (Word2Vec) followed by supervised learning (the Random Forest).
+
+# Libraries and packages
+The lists below should in no way be considered exhaustive.
+
+In Python:
+- Theano offers very low-level, nuts and bolts functionality for building deep learning systems. You can also find some good tutorials on their site.
+- Caffe is a deep learning framework out of the Berkeley Vision and Learning Center.
+- Pylearn2 wraps Theano and seems slightly more user friendly.
+- OverFeat was used to win the Kaggle Cats and Dogs competition.
+
+In Lua:
+Torch is a popular package and comes with a tutorial.
+
+In R:
+As of August 2014, there are a few packages just starting to be developed, but none are quite mature enough to be used in a tutorial.
+
+There may be good packages in other languages as well, but we have not researched them.
