@@ -48,9 +48,11 @@ In Python:
 - OverFeat was used to win the Kaggle Cats and Dogs competition.
 
 In Lua:
+
 Torch is a popular package and comes with a tutorial.
 
 In R:
+
 As of August 2014, there are a few packages just starting to be developed, but none are quite mature enough to be used in a tutorial.
 
 There may be good packages in other languages as well, but we have not researched them.
